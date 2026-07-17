@@ -1608,17 +1608,12 @@
     <script>
       document.querySelectorAll(".questions-right-row").forEach((row) => {
         row.addEventListener("click", () => {
-          // Tıklanan satırın üst kapsayıcısını (item) buluyoruz
           const parentItem = row.parentElement;
-
-          // Eğer sadece tek bir sorunun açık kalmasını istiyorsan, diğer açık olanları kapatır:
           document.querySelectorAll(".questions-right-item").forEach((item) => {
             if (item !== parentItem) {
               item.classList.remove("active");
             }
           });
-
-          // Tıklanan soruyu aç/kapa yapar
           parentItem.classList.toggle("active");
         });
       });
