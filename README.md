@@ -8,6 +8,7 @@ HTML ve CSS kullanılarak hazırlanmış, tasarımcı portföyü temalı bir ara
 
 - HTML
 - CSS
+-  Javascript(temel etkileşimler)
 
 ## Durum
 
